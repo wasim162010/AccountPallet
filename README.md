@@ -68,10 +68,6 @@ When the node starts, only the `AccountId`s added in the genesis config of this 
 
 New `AccountId`s can be added to the allow-list by calling the pallet's `add_account` function using `root` key as origin.
 
-## Sample
-
-The usage of this pallet are demonstrated in the [Substrate permissioning sample](https://github.com/gautamdhameja/substrate-permissioning).
-
 ## Potential extension
 
 * The addition and removal of `AccountId`s to the allow-list can also be done using other governance methods instead of root.
@@ -79,4 +75,4 @@ The usage of this pallet are demonstrated in the [Substrate permissioning sample
 
 ## Disclaimer
 
-This code not audited and reviewed for production use cases. You can expect bugs and security vulnerabilities. Do not use it as-is in real applications.
+This code is intended to give the idea of how the pallet can be created to manage account addition. It may have bugs and security vulnerabilities.
