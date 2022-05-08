@@ -74,5 +74,4 @@ New `AccountId`s can be added to the allow-list by calling the pallet's `add_acc
 * The logic can be reversed to maintain a deny-list of accounts to prevent those `AccountId`s from sending extrinsics.
 
 ## Disclaimer
-
-This code is intended to give the idea of how the pallet can be created to manage account addition. It may have bugs and security vulnerabilities.
+** THIS CODE IS INTENDED TO GIVE AN IDEA ABOUT HOW THE PALLET CAN BE CREATED TO MANAGE ACCOUNT ADDITION. IT MAY CONTAIN BUGS AND SECURITY VULNERABILITIES.
